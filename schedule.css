@@ -12,6 +12,11 @@ header{
     padding-bottom: 25px;
 }
 
+#submenu{
+    color: white;
+    font-size: 40px;
+}
+
 /*Added so header dosent overlap with the title of the table*/
 /*Padding and margin left are set to 0 to remove default margin in body which prevents header from taking full width of page. */
 body{
