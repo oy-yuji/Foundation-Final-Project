@@ -9,10 +9,10 @@ header{
     text-align: center;
     color: #ffcc00;
     padding: 20px;
-    padding-bottom: 25px;
+    padding-bottom: 5px;
 }
 
-/*Navigation bar in header*/
+/*Layout of navigation bar in header.*/
 nav li{
     color: white;
     font-size: 40px;
