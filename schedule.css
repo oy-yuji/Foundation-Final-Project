@@ -33,5 +33,5 @@ th{
 
 /*Make zebra pattern on table so it's easy to read. */
 tr:nth-child(odd){
-    background-color: rgb(210, 235, 252);
+    background-color: rgb(191, 216, 253);
 }
