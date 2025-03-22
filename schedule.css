@@ -17,6 +17,7 @@ nav li{
     color: white;
     font-size: 35px;
     display: inline;
+    padding: 15px;
 }
 
 /*Make the clickable links white and not change color when they are clicked*/
