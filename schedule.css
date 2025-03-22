@@ -1,6 +1,7 @@
 /*Header at top*/
 header{
     position: fixed;
+    top: 0;
     background-color: #007aff;
     width: 100%;
     font-size: 80px;
