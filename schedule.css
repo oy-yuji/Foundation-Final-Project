@@ -12,6 +12,13 @@ header{
     padding-bottom: 25px;
 }
 
+/*Added so header dosent overlap with the title of the table*/
+/*Padding and margin left are set to 0 to remove default margin in body which prevents header from taking full width of page. */
+body{
+ margin-top: 180px;
+ padding: 0;
+ margin-left: 0;
+}
 /*Title for table*/
 h1{
     font-size: 40px;
