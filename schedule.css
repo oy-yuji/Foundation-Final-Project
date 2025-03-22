@@ -18,6 +18,12 @@ nav li{
     display: inline;
 }
 
+/*Make the clickable links white and not change color when they are clicked*/
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
 /*Added so header dosent overlap with the title of the table*/
 /*Padding and margin left are set to 0 to remove default margin in body which prevents header from taking full width of page. */
 body{
