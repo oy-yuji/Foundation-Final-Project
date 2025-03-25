@@ -2,7 +2,7 @@
 header{
     height: 150px; /*Height set to this value so header isint too big*/
     padding-top: 10px ;
-    position: relative;
+    position: absolute;
     top: 0;
     background-color: #007aff;
     width: 100%;
@@ -32,6 +32,7 @@ body{
     text-align: center;
     margin-top: 0px;
     padding: 0;
+    margin-top: 180px; /*Added so the header dosent cover the content.*/
     margin-left: 0;
     margin-bottom: 150px; /* So footer dosent overlap with practice time.*/
    }
