@@ -1,8 +1,8 @@
 /*Header at top*/
 header{
-    height: 140px; /*Height set to this value so header isint too big*/
+    height: 150px; /*Height set to this value so header isint too big*/
     padding-top: 10px ;
-    position: fixed;
+    position: relative;
     top: 0;
     background-color: #007aff;
     width: 100%;
@@ -30,11 +30,10 @@ nav a {
 /*Padding and margin left are set to 0 to remove default margin in body which prevents header from taking full width of page. */
 body{
     text-align: center;
-    margin-top: 160px;
+    margin-top: 0px;
     padding: 0;
     margin-left: 0;
-    width: 100%;
-
+    margin-bottom: 150px; /* So footer dosent overlap with practice time.*/
    }
 /*Footer code at the bottom of the page*/
 
@@ -56,3 +55,13 @@ footer{
  #contact-us{
      color: #ffcc00;
  }
+
+
+/* to take the bullets out of the list */
+
+ ul{
+    display: center;
+    list-style-type: none;
+    font-size: 20px;
+ }
+ 
