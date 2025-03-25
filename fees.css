@@ -51,6 +51,7 @@ body{
     margin-top: 180px; /*Added so the header dosent cover the content.*/
     margin-left: 0;
     margin-bottom: 150px; /* So footer dosent overlap with practice time.*/
+    background-color: #cfe4fa;
    }
 
 /* Increase list font size.*/
