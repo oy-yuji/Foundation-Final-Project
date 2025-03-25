@@ -1,3 +1,10 @@
+/* purpose: to make the footer stick to the bottom & adapts to small screens like mobile phones */
+html{
+
+    height: 100%
+}
+
+
 /*Header at top*/
 header{
     height: 140px; /*Height set to this value so header isint too big*/
@@ -34,6 +41,15 @@ body{
  margin-left: 0;
  margin-bottom: 150px; /* So footer dosent overlap with practice time.*/
  background-color: #cfe4fa;
+
+
+/* purpose: to make the footer stick to the bottom & adapts to small screens like mobile phones */
+min-height: 100%;
+/*  */
+
+
+
+
 }
 /*Title for table*/
 h1{
@@ -99,6 +115,19 @@ footer{
    width: 100%;
    height: 80px;
    font-size: 19px;
+
+
+/* purpose: to make the footer stick to the bottom */
+
+    display:flex;
+    flex-direction: column;
+
+    margin-top: auto;
+
+/*  */
+
+
+
 }
 footer ul{
    list-style: none;
