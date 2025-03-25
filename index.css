@@ -60,7 +60,6 @@ body{
     margin-left: 0;
     margin-bottom: 150px; /* So footer dosent overlap with picture.*/
     background-color: #cfe4fa;
-    
 /* purpose: to make the footer stick to the bottom & adapts to small screens like mobile phones */
     min-height: 100%;
 /*  */
@@ -75,7 +74,6 @@ body{
 /*Footer code at the bottom of the page*/
 
 footer{
-   
     background-color: #007aff;
     color: white;
     text-align: center;
