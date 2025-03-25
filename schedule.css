@@ -12,6 +12,13 @@ header{
     color: #ffcc00;
 }
 
+/*Added while doing the W3C verification so the navigation bar is contained inthe header.*/
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 /*Layout of navigation bar in header.*/
 nav li{
     color: white;
