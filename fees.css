@@ -10,7 +10,7 @@ html{
 header{
     height: 150px; /*Height set to this value so header isint too big*/
     padding-top: 10px ;
-    position: relative;
+    position: absolute;
     top: 0;
     background-color: #007aff;
     width: 100%;
@@ -19,7 +19,6 @@ header{
     text-align: center;
     color: #ffcc00;
 }
-
 /*Layout of navigation bar in header.*/
 nav li{
     color: white;
@@ -34,34 +33,67 @@ nav a {
     text-decoration: none;
 }
 
-/*Added so header dosent overlap with the title of the table*/
+/* Change font family for h1*/
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/*Improve visibility of text on page.*/
+
+.font_visibility{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+}
+
+/*Added so header dosent overlap with header of the page.*/
 /*Padding and margin left are set to 0 to remove default margin in body which prevents header from taking full width of page. */
 body{
     text-align: center;
     margin-top: 0px;
     padding: 0;
+    margin-top: 180px; /*Added so the header dosent cover the content.*/
     margin-left: 0;
     margin-bottom: 150px; /* So footer dosent overlap with practice time.*/
 /* purpose: to make the footer stick to the bottom & adapts to small screens like mobile phones */
     min-height: 100%;
+/*Footer code at the bottom of the page*/
+    background-color: #cfe4fa;
    }
 
-/*Footer code at the bottom of the page*/
+/* Increase list font size.*/
+ ul{
+    list-style-position: inside; /*Makes sure the bullet points get centered with the list*/
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
+/* Display the images inline-bloc and make a yellow border around them*/
+.img{
+    display: inline-block;   
+     padding: 10px;
+     margin: 10px;
+    border: #ffcc00 5px solid;
+}
+   /*Footer code at the bottom of the page*/
 footer{
     background-color: #007aff;
     color: white;
     text-align: center;
-    padding: 20px;
     position: relative;
+    padding: 5px;
     bottom: 0;
     width: 100%;
-    height: 80px;
+    margin-top: 50px;
     font-size: 19px;
 /* purpose: to make the footer stick to the bottom */
     display:flex;
     flex-direction: column;
     margin-top: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
  }
 
  footer ul{
@@ -74,11 +106,3 @@ footer{
  }
 
 
-/* to take the bullets out of the list */
-
- ul{
-    display: center;
-    list-style-type: none;
-    font-size: 20px;
- }
- 
