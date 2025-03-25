@@ -1,3 +1,11 @@
+/* purpose: to make the footer stick to the bottom & adapts to small screens like mobile phones */
+html{
+
+    height: 100%
+}
+
+
+
 /*Header at top*/
 header{
     height: 150px; /*Height set to this value so header isint too big*/
@@ -49,6 +57,10 @@ body{
     padding: 0;
     margin-top: 180px; /*Added so the header dosent cover the content.*/
     margin-left: 0;
+    margin-bottom: 150px; /* So footer dosent overlap with practice time.*/
+/* purpose: to make the footer stick to the bottom & adapts to small screens like mobile phones */
+    min-height: 100%;
+/*Footer code at the bottom of the page*/
     background-color: #cfe4fa;
    }
 
@@ -77,10 +89,16 @@ footer{
     width: 100%;
     margin-top: 50px;
     font-size: 19px;
+/* purpose: to make the footer stick to the bottom */
+    display:flex;
+    flex-direction: column;
+    margin-top: auto;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
  }
+
  footer ul{
     list-style: none;
+
  }
  
  #contact-us{
