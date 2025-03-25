@@ -10,7 +10,7 @@ html{
 header{
     height: 150px; /*Height set to this value so header isint too big*/
     padding-top: 10px ;
-    position: absolute;
+    position: fixed;
     top: 0;
     background-color: #007aff;
     width: 100%;
