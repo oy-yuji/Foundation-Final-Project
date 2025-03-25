@@ -14,8 +14,6 @@ header{
 }
 
 .highlight{
-    color: #ffcc00;
-    -webkit-text-stroke: black 0.8px;
     font-size: 20px;
     font-weight: bold;
 }
