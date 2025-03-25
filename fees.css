@@ -42,6 +42,13 @@ h1{
     font-size: 25px;
 }
 
+/*Create seperation for the Uniform Price List header and the membership fees*/
+
+#uniform_price_list{
+
+    padding-top: 20px;
+    font-weight: bold;
+}
 
 
 /*Added so header dosent overlap with the title of the table*/
