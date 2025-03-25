@@ -34,6 +34,7 @@ body{
     padding: 0;
     margin-left: 0;
     margin-bottom: 150px; /* So footer dosent overlap with practice time.*/
+    background-color: #cfe4fa;
    }
 
 /*Footer code at the bottom of the page*/
